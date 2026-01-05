@@ -27,6 +27,7 @@ object PathResolver {
 
     fun formatInsertText(payload: FileRelativePath): String {
         return buildString {
+            append("@")
             append(payload.relativePath)
             payload.lineRange?.let { range ->
                 append(':')
