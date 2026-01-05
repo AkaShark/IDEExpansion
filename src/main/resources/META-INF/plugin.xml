@@ -45,13 +45,5 @@
             <!-- Also put it in the Tools menu for discoverability -->
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-
-        <action id="com.sharker.ideexpansion.actions.selectFileInProject"
-                class="com.sharker.ideexpansion.actions.SelectFileInProjectAction"
-                text="Select Opened File in Project View"
-                description="Reveal current file in Project tool window"
-        >
-            <keyboard-shortcut first-keystroke="meta shfit J" keymap="$default" />
-        </action>
     </actions>
 </idea-plugin>
