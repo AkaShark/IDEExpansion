@@ -37,10 +37,6 @@ internal class CopyFilePathAction : AnAction(
         CopyPasteManager.getInstance().setContents(StringSelection(fileRelativePathText))
     }
 
-    override fun update(e: AnActionEvent) {
-
-    }
-
     override fun getActionUpdateThread(): ActionUpdateThread = ActionUpdateThread.EDT
 
 
