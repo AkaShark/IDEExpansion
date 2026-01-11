@@ -16,7 +16,6 @@
         <p>
             IDEEXPANSION provides some common capabilities in development, such as
             1. Copy the relative location of the current file in the project, which can be provided to tools such as Codex CC
-            2. Use CMD + SHIFT + J to automatically locate the current file in the file directory
         </p>
     ]]></description>
 
@@ -38,7 +37,7 @@
                 icon="icons/copy_action.svg"
         >
             <!-- New UI toolbar (2022.3+) -->
-            <add-to-group group-id="MainToolbarRight" anchor="last"/>
+<!--            <add-to-group group-id="MainToolbarRight" anchor="last"/>-->
             <add-to-group group-id="MainToolbarLeft" anchor="last"/>
             <!-- Fallback: old UI/NavBar toolbar -->
             <add-to-group group-id="NavBarToolBar" anchor="last"/>

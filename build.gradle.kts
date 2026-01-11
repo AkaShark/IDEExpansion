@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.sharker"
-version = "0.0.1"
+version = "0.0.5"
 
 repositories {
     mavenCentral()
